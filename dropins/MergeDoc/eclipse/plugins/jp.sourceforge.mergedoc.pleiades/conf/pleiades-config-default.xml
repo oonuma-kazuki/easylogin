@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration>
+<!--
+###############################################################################
+#
+# Copyright (c) 2005- Shinji Kashihara. All rights reserved.
+# This program and the accompanying materials are
+# made available under the terms of the Eclipse Public License v1.0 which
+# accompanies this distribution, and is available at epl-v10.html.
+#
+###############################################################################
+#
+# Java アプリケーション全般用 Pleiades アスペクト設定ファイル
+#
+###############################################################################
+-->
+<pleiades>
+
+	<!-- Pleades runtime パッケージ -->
+	<property name="pleiades" value="jp.sourceforge.mergedoc.pleiades.runtime"/>
+
+	<!-- 翻訳クラス -->
+	<property name="Translationz" value="?{pleiades}.resource.Translationz"/>
+
+	<!-- 計測クラス -->
+	<property name="Analyses" value="?{pleiades}.Analyses"/>
+
+	<!--
+	###########################################################################
+	  翻訳：メソッド呼び出し (editPoint="call")
+	###########################################################################
+	-->
+
+	<!-- 汎用 (after) -->
+	<pointCut editPoint="call" timing="around">
+		<advice><![CDATA[
+			$_ = $proceed($$);
+			$_ = ?{Translationz}.translateIgnoreMnemonic($_, null);
+		]]></advice>
+
+		<!-- JDK リソースバンドル翻訳 -->
+		<joinPoint className="java.util.ResourceBundle" methodName="getString">
+
+			<!-- 呼び出し元による除外：AWT ショートカットキー名 (Shift、Home など) -->
+			<excludeWhere className="java.awt.Toolkit"/>
+
+		</joinPoint>
+
+	</pointCut>
+
+	<!--
+    ###########################################################################
+	  デバッグ
+    ###########################################################################
+	-->
+
+	<!-- 時間計測ログ -->
+	<pointCut editPoint="call" timing="around" level="debug">
+		<advice><![CDATA[
+			?{Analyses}.start(?{TARGET_STRING});
+			$_ = $proceed($$);
+			?{Analyses}.end(?{TARGET_STRING});
+		]]></advice>
+
+		<joinPoint className="jp.sourceforge.mergedoc.pleiades"/>
+
+	</pointCut>
+
+	<!-- デバッグ (before) [呼び出し部分] -->
+	<pointCut editPoint="call" timing="around">
+		<advice><![CDATA[
+			?{Translationz}.debug($1, ?{JOIN_POINT});
+			$_ = $proceed($$);
+		]]></advice>
+	</pointCut>
+
+	<!-- デバッグ (after) [呼び出し部分] -->
+	<pointCut editPoint="call" timing="around">
+		<advice><![CDATA[
+			$_ = $proceed($$);
+			?{Translationz}.debug($_, ?{JOIN_POINT});
+		]]></advice>
+	</pointCut>
+
+	<!-- デバッグ (before-after) [呼び出し部分] -->
+	<pointCut editPoint="call" timing="around">
+		<advice><![CDATA[
+			?{Translationz}.debug($1, ?{JOIN_POINT});
+			$_ = $proceed($$);
+			?{Translationz}.debug($_, ?{JOIN_POINT});
+		]]></advice>
+	</pointCut>
+
+	<!-- デバッグ (before・引数指定なし) -->
+	<pointCut editPoint="execution" timing="before">
+		<advice><![CDATA[
+			?{Translationz}.debug(null, ?{JOIN_POINT});
+		]]></advice>
+	</pointCut>
+
+	<!-- デバッグ (before・第 1 引数) -->
+	<pointCut editPoint="execution" timing="before">
+		<advice><![CDATA[
+			?{Translationz}.debug($1, ?{JOIN_POINT});
+		]]></advice>
+	</pointCut>
+
+	<!-- デバッグ (before・第 2 引数) -->
+	<pointCut editPoint="execution" timing="before">
+		<advice><![CDATA[
+			?{Translationz}.debug($2, ?{JOIN_POINT});
+		]]></advice>
+	</pointCut>
+
+	<!-- デバッグ (before・第 3 引数) -->
+	<pointCut editPoint="execution" timing="before">
+		<advice><![CDATA[
+			?{Translationz}.debug($3, ?{JOIN_POINT});
+		]]></advice>
+	</pointCut>
+
+	<!-- デバッグ (before・第 4 引数) -->
+	<pointCut editPoint="execution" timing="before">
+		<advice><![CDATA[
+			?{Translationz}.debug($4, ?{JOIN_POINT});
+		]]></advice>
+	</pointCut>
+
+	<!-- デバッグ (after) -->
+	<pointCut editPoint="execution" timing="after">
+		<advice><![CDATA[
+			?{Translationz}.debug($_, ?{JOIN_POINT});
+			return $_;
+		]]></advice>
+	</pointCut>
+
+	<!-- スタックトレース (after) -->
+	<pointCut editPoint="execution" timing="after">
+		<advice><![CDATA[
+			?{Translationz}.printStackTrace($_, ?{JOIN_POINT});
+			return $_;
+		]]></advice>
+	</pointCut>
+
+	<!-- スタックトレース (before) -->
+	<pointCut editPoint="execution" timing="before">
+		<advice><![CDATA[
+			?{Translationz}.printStackTrace($1, ?{JOIN_POINT});
+		]]></advice>
+	</pointCut>
+
+	<!--
+    ###########################################################################
+	  翻訳トレース (Pleiades 起動オプション debug 時のみ有効)
+    ###########################################################################
+    TraceConfig 参照
+	-->
+
+	<property name="trace.pattern" value=""/>
+	<property name="trace.is.ja" value="false"/>
+	<property name="trace.disabled" value="false"/>
+	<property name="log.desc.class" value=""/>
+
+</pleiades>

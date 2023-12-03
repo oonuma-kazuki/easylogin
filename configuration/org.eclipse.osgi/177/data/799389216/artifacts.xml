@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='C:\pleiades\2022-12\eclipse\dropins\SpotBugs' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
+  <properties size='1'>
+    <property name='p2.timestamp' value='1696942951795'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='2'>
+    <artifact classifier='org.eclipse.update.feature' id='com.github.spotbugs.plugin.eclipse' version='4.7.3.r202210170504-fa9e53a'>
+      <properties size='1'>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/pleiades/2022-12/eclipse/dropins/SpotBugs/eclipse/features/com.github.spotbugs.plugin.eclipse_4.7.3.r202210170504-fa9e53a/'/>
+        <property name='file.name' value='C:\pleiades\2022-12\eclipse\dropins\SpotBugs\eclipse\features\com.github.spotbugs.plugin.eclipse_4.7.3.r202210170504-fa9e53a'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.github.spotbugs.plugin.eclipse' version='4.7.3.r202210170504-fa9e53a'>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/pleiades/2022-12/eclipse/dropins/SpotBugs/eclipse/plugins/com.github.spotbugs.plugin.eclipse_4.7.3.r202210170504-fa9e53a/'/>
+        <property name='file.name' value='C:\pleiades\2022-12\eclipse\dropins\SpotBugs\eclipse\plugins\com.github.spotbugs.plugin.eclipse_4.7.3.r202210170504-fa9e53a'/>
+      </repositoryProperties>
+    </artifact>
+  </artifacts>
+</repository>

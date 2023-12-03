@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature version="10.4.0.202211151918"
+      id="net.sf.eclipsecs"
+      label="%feature.label"
+      provider-name="%feature.provider_name"
+      plugin="net.sf.eclipsecs.branding">
+
+   <description url="%description.url">
+      %description.text
+   </description>
+
+   <copyright>
+      %copyright.text
+   </copyright>
+
+   <license url="license.html">
+      %license.text
+   </license>
+
+   <url>
+      <update label="%updateSiteName" url="https://checkstyle.org/eclipse-cs-update-site/"/>
+   </url>
+
+   <requires>
+      <import plugin="org.eclipse.core.runtime" version="3.19.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.core.resources"/>
+      <import plugin="org.eclipse.jdt.core"/>
+      <import plugin="org.eclipse.team.core"/>
+      <import plugin="org.eclipse.core.filebuffers"/>
+      <import plugin="org.eclipse.jface.text"/>
+      <import plugin="org.eclipse.jdt.ui"/>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.ui.editors"/>
+      <import plugin="org.eclipse.ui.ide"/>
+      <import plugin="org.eclipse.ui.workbench.texteditor"/>
+   </requires>
+
+   <plugin
+         id="net.sf.eclipsecs.branding"
+         download-size="6"
+         install-size="6"
+         version="10.4.0.202211151918"
+         unpack="false"/>
+
+   <plugin
+         id="net.sf.eclipsecs.core"
+         download-size="15952"
+         install-size="17842"
+         version="10.4.0.202211151918"
+         unpack="true"/>
+
+   <plugin
+         id="net.sf.eclipsecs.doc"
+         download-size="3"
+         install-size="7"
+         version="10.4.0.202211151918"
+         unpack="false"/>
+
+   <plugin
+         id="net.sf.eclipsecs.checkstyle"
+         download-size="14394"
+         install-size="15933"
+         version="10.4.0.202211151918"/>
+
+   <plugin
+         id="net.sf.eclipsecs.ui"
+         download-size="2287"
+         install-size="2923"
+         version="10.4.0.202211151918"/>
+
+</feature>

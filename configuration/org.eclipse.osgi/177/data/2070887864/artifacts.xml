@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='C:\pleiades\2022-12\eclipse\dropins\CheckStyle' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
+  <properties size='1'>
+    <property name='p2.timestamp' value='1696942949390'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='6'>
+    <artifact classifier='osgi.bundle' id='org.apache.commons.commons-io' version='2.11.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='327135'/>
+        <property name='download.size' value='327135'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/pleiades/2022-12/eclipse/dropins/CheckStyle/eclipse/plugins/org.apache.commons.commons-io_2.11.0.jar'/>
+        <property name='file.name' value='C:\pleiades\2022-12\eclipse\dropins\CheckStyle\eclipse\plugins\org.apache.commons.commons-io_2.11.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsecs.checkstyle' version='10.4.0.202211151918'>
+      <properties size='2'>
+        <property name='artifact.size' value='14740119'/>
+        <property name='download.size' value='14740119'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/pleiades/2022-12/eclipse/dropins/CheckStyle/eclipse/plugins/net.sf.eclipsecs.checkstyle_10.4.0.202211151918.jar'/>
+        <property name='file.name' value='C:\pleiades\2022-12\eclipse\dropins\CheckStyle\eclipse\plugins\net.sf.eclipsecs.checkstyle_10.4.0.202211151918.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='net.sf.eclipsecs' version='10.4.0.202211151918'>
+      <properties size='1'>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/pleiades/2022-12/eclipse/dropins/CheckStyle/eclipse/features/net.sf.eclipsecs_10.4.0.202211151918/'/>
+        <property name='file.name' value='C:\pleiades\2022-12\eclipse\dropins\CheckStyle\eclipse\features\net.sf.eclipsecs_10.4.0.202211151918'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsecs.core' version='10.4.0.202211151918'>
+      <properties size='2'>
+        <property name='artifact.size' value='16335752'/>
+        <property name='download.size' value='16335752'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/pleiades/2022-12/eclipse/dropins/CheckStyle/eclipse/plugins/net.sf.eclipsecs.core_10.4.0.202211151918.jar'/>
+        <property name='file.name' value='C:\pleiades\2022-12\eclipse\dropins\CheckStyle\eclipse\plugins\net.sf.eclipsecs.core_10.4.0.202211151918.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsecs.branding' version='10.4.0.202211151918'>
+      <properties size='2'>
+        <property name='artifact.size' value='6391'/>
+        <property name='download.size' value='6391'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/pleiades/2022-12/eclipse/dropins/CheckStyle/eclipse/plugins/net.sf.eclipsecs.branding_10.4.0.202211151918.jar'/>
+        <property name='file.name' value='C:\pleiades\2022-12\eclipse\dropins\CheckStyle\eclipse\plugins\net.sf.eclipsecs.branding_10.4.0.202211151918.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsecs.ui' version='10.4.0.202211151918'>
+      <properties size='2'>
+        <property name='artifact.size' value='2342687'/>
+        <property name='download.size' value='2342687'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/pleiades/2022-12/eclipse/dropins/CheckStyle/eclipse/plugins/net.sf.eclipsecs.ui_10.4.0.202211151918.jar'/>
+        <property name='file.name' value='C:\pleiades\2022-12\eclipse\dropins\CheckStyle\eclipse\plugins\net.sf.eclipsecs.ui_10.4.0.202211151918.jar'/>
+      </repositoryProperties>
+    </artifact>
+  </artifacts>
+</repository>

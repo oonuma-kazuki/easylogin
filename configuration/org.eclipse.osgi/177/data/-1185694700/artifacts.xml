@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='C:\pleiades\2022-12\eclipse\dropins\EGit' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
+  <properties size='1'>
+    <property name='p2.timestamp' value='1696942949880'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='10'>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.jgit.ssh.jsch' version='6.4.0.202211300538-r'>
+      <properties size='1'>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/pleiades/2022-12/eclipse/dropins/EGit/eclipse/features/org.eclipse.jgit.ssh.jsch_6.4.0.202211300538-r/'/>
+        <property name='file.name' value='C:\pleiades\2022-12\eclipse\dropins\EGit\eclipse\features\org.eclipse.jgit.ssh.jsch_6.4.0.202211300538-r'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.jgit.lfs' version='6.4.0.202211300538-r'>
+      <properties size='1'>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/pleiades/2022-12/eclipse/dropins/EGit/eclipse/features/org.eclipse.jgit.lfs_6.4.0.202211300538-r/'/>
+        <property name='file.name' value='C:\pleiades\2022-12\eclipse\dropins\EGit\eclipse\features\org.eclipse.jgit.lfs_6.4.0.202211300538-r'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jgit.lfs' version='6.4.0.202211300538-r'>
+      <properties size='2'>
+        <property name='artifact.size' value='79429'/>
+        <property name='download.size' value='79429'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/pleiades/2022-12/eclipse/dropins/EGit/eclipse/plugins/org.eclipse.jgit.lfs_6.4.0.202211300538-r.jar'/>
+        <property name='file.name' value='C:\pleiades\2022-12\eclipse\dropins\EGit\eclipse\plugins\org.eclipse.jgit.lfs_6.4.0.202211300538-r.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jgit.ssh.jsch' version='6.4.0.202211300538-r'>
+      <properties size='2'>
+        <property name='artifact.size' value='42399'/>
+        <property name='download.size' value='42399'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/pleiades/2022-12/eclipse/dropins/EGit/eclipse/plugins/org.eclipse.jgit.ssh.jsch_6.4.0.202211300538-r.jar'/>
+        <property name='file.name' value='C:\pleiades\2022-12\eclipse\dropins\EGit\eclipse\plugins\org.eclipse.jgit.ssh.jsch_6.4.0.202211300538-r.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.slf4j.api' version='1.7.30.v20221112-0806'>
+      <properties size='2'>
+        <property name='artifact.size' value='55309'/>
+        <property name='download.size' value='55309'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/pleiades/2022-12/eclipse/dropins/EGit/eclipse/plugins/org.slf4j.api_1.7.30.v20221112-0806.jar'/>
+        <property name='file.name' value='C:\pleiades\2022-12\eclipse\dropins\EGit\eclipse\plugins\org.slf4j.api_1.7.30.v20221112-0806.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.egit.gitflow' version='6.4.0.202211300538-r'>
+      <properties size='2'>
+        <property name='artifact.size' value='59470'/>
+        <property name='download.size' value='59470'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/pleiades/2022-12/eclipse/dropins/EGit/eclipse/plugins/org.eclipse.egit.gitflow_6.4.0.202211300538-r.jar'/>
+        <property name='file.name' value='C:\pleiades\2022-12\eclipse\dropins\EGit\eclipse\plugins\org.eclipse.egit.gitflow_6.4.0.202211300538-r.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.egit.gitflow.ui' version='6.4.0.202211300538-r'>
+      <properties size='2'>
+        <property name='artifact.size' value='109147'/>
+        <property name='download.size' value='109147'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/pleiades/2022-12/eclipse/dropins/EGit/eclipse/plugins/org.eclipse.egit.gitflow.ui_6.4.0.202211300538-r.jar'/>
+        <property name='file.name' value='C:\pleiades\2022-12\eclipse\dropins\EGit\eclipse\plugins\org.eclipse.egit.gitflow.ui_6.4.0.202211300538-r.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.egit.gitflow.feature' version='6.4.0.202211300538-r'>
+      <properties size='1'>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/pleiades/2022-12/eclipse/dropins/EGit/eclipse/features/org.eclipse.egit.gitflow.feature_6.4.0.202211300538-r/'/>
+        <property name='file.name' value='C:\pleiades\2022-12\eclipse\dropins\EGit\eclipse\features\org.eclipse.egit.gitflow.feature_6.4.0.202211300538-r'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.google.gson' version='2.9.1.v20220915-1632'>
+      <properties size='2'>
+        <property name='artifact.size' value='296947'/>
+        <property name='download.size' value='296947'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/pleiades/2022-12/eclipse/dropins/EGit/eclipse/plugins/com.google.gson_2.9.1.v20220915-1632.jar'/>
+        <property name='file.name' value='C:\pleiades\2022-12\eclipse\dropins\EGit\eclipse\plugins\com.google.gson_2.9.1.v20220915-1632.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jgit.lfs.server' version='6.4.0.202211300538-r'>
+      <properties size='2'>
+        <property name='artifact.size' value='50397'/>
+        <property name='download.size' value='50397'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/pleiades/2022-12/eclipse/dropins/EGit/eclipse/plugins/org.eclipse.jgit.lfs.server_6.4.0.202211300538-r.jar'/>
+        <property name='file.name' value='C:\pleiades\2022-12\eclipse\dropins\EGit\eclipse\plugins\org.eclipse.jgit.lfs.server_6.4.0.202211300538-r.jar'/>
+      </repositoryProperties>
+    </artifact>
+  </artifacts>
+</repository>

@@ -1,0 +1,19 @@
+INFO  17:23:45.918 [ForkJoinPool-1-worker-2] (LauncherEclipseTransformer) Eclipse version [4.26] year [2022] buildId [4.26.0.20221201-1200]
+INFO  17:23:45.943 [ForkJoinPool-1-worker-3] (LauncherTransformer) Pleiades AOP 起動トランスフォーマーを開始します。LauncherEclipseTransformer 0.017 秒
+INFO  17:23:45.962 [ForkJoinPool-2-worker-1] (UpdateDetector) ファイル更新最終時刻 (前回): 2023-02-12 18:07:25
+INFO  17:23:45.967 [ForkJoinPool-1-worker-2] (LauncherEclipseTransformer) スプラッシュ画像: splash2022.bmp - C:\pleiades\2022-12\eclipse\dropins\MergeDoc\eclipse\plugins\jp.sourceforge.mergedoc.pleiades\conf\images
+INFO  17:23:46.007 [ForkJoinPool-2-worker-1] (UpdateDetector) ファイル更新最終時刻 (今回): 2023-02-12 18:07:25
+INFO  17:23:46.032 [ForkJoinPool-1-worker-4] (PleiadesConfig) Pleiades 構成ファイルをロードしました。pleiades-config.xml
+INFO  17:23:46.147 [ForkJoinPool-1-worker-4] (LauncherTransformer) -clean 元引数:false 確定後:false
+INFO  17:23:46.311 [ForkJoinPool-1-worker-4] (TransformedClassCache) load      776 エントリー transformed-class.cache
+INFO  17:23:46.348 [ForkJoinPool-1-worker-4] (ExcludeClassNameCache) load    15316 エントリー exclude-class.list
+INFO  17:23:46.349 [ForkJoinPool-1-worker-4] (LauncherTransformer) Pleiades AOP 翻訳トランスフォーマーを開始します。
+INFO  17:24:07.064 [ForkJoinPool-1-worker-1] (Analyses) Eclipse 起動完了 - 起動時間: 20.914 秒。-clean:false
+INFO  21:24:24.526 [ForkJoinPool-1-worker-6] (ExcludeClassNameCache) load    15316 エントリー exclude-class.list
+INFO  21:24:24.565 [ForkJoinPool-1-worker-7] (PropertySet) store 0.052 秒 -   2631 エントリー mnemonic-cache.properties.zip
+INFO  21:24:24.566 [ForkJoinPool-1-worker-7] (CachePropertySet) ニーモニック変換キャッシュ・プロパティーを更新しました。
+INFO  21:24:24.586 [ForkJoinPool-1-worker-6] (ExcludeClassNameCache) store   20291 エントリー exclude-class.list
+INFO  21:24:24.675 [ForkJoinPool-1-worker-5] (TransformedClassCache) load      776 エントリー transformed-class.cache
+INFO  21:24:24.973 [ForkJoinPool-1-worker-7] (PropertySet) store 0.315 秒 -  24111 エントリー translation-cache.properties.zip
+INFO  21:24:24.973 [ForkJoinPool-1-worker-7] (CachePropertySet) 翻訳キャッシュ・プロパティーを更新しました。
+INFO  21:24:25.193 [ForkJoinPool-1-worker-5] (TransformedClassCache) store    1019 エントリー transformed-class.cache

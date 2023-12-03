@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='C:\pleiades\2022-12\eclipse\dropins\EclipseZipEditor' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
+  <properties size='1'>
+    <property name='p2.timestamp' value='1696942949458'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='1'>
+    <artifact classifier='osgi.bundle' id='ZipEditor' version='1.1.8.202010020827'>
+      <properties size='2'>
+        <property name='artifact.size' value='376394'/>
+        <property name='download.size' value='376394'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/pleiades/2022-12/eclipse/dropins/EclipseZipEditor/eclipse/plugins/ZipEditor_1.1.8.202010020827.jar'/>
+        <property name='file.name' value='C:\pleiades\2022-12\eclipse\dropins\EclipseZipEditor\eclipse\plugins\ZipEditor_1.1.8.202010020827.jar'/>
+      </repositoryProperties>
+    </artifact>
+  </artifacts>
+</repository>

@@ -1,0 +1,234 @@
+Signature-Version: 1.0
+Created-By: 17.0.4.1 (Eclipse Adoptium)
+SHA-256-Digest-Manifest: Nr+jRriW3VzCAwtoNe3zGhmJ/K5oHaOlNAgjBlE1wAs=
+SHA-256-Digest-Manifest-Main-Attributes: E079xiKhEVoQgkqtPohmb2kY0DCMQi9
+ G6OTFz0kkq8k=
+
+Name: about.properties
+SHA-256-Digest: rpTZhTRsabVhyx57bKO6Ag0XZanABkNEMXQ3Y5wDbA8=
+
+Name: plugin.xml
+SHA-256-Digest: 4Pm54Ox1et7Pj0II/PXNE2Fp4I8ZrEbxGeyj6LZelT8=
+
+Name: lib/asm-analysis-9.4.jar
+SHA-256-Digest: wvBT8kFjSspictJkyFVM5wfESnm4TXFgh4K3Ri7NJtQ=
+
+Name: icons/export_bugs.png
+SHA-256-Digest: RuIRiuELcePZwjzXhC2Y/Zb9o9sBtsINcNehCWDBlJQ=
+
+Name: lib/asm-tree-9.4.jar
+SHA-256-Digest: 7hK4fkaaD2X8Mx+laKtARJ3tjuLLdcSrKxa0ELoN37s=
+
+Name: lib/jaxen-1.2.0.jar
+SHA-256-Digest: XHIyk2TTIgNqoBaTtjIdmR4JpeDpJ4cA8/Ej6NvrXZ0=
+
+Name: doc/installing_findbugsplugin.txt
+SHA-256-Digest: S81AIY3sDlQiFa9uhqhBh4kuHosWAepeJAxn1//cUTg=
+
+Name: icons/delete_edit.png
+SHA-256-Digest: ZzVc71WRNSW+lZdv2hd1eY9/ZkcEAOXScdP7Qz507e0=
+
+Name: lib/commons-codec-1.15.jar
+SHA-256-Digest: jJkmTpcoLelu1EgbEO/fS38iTzCOr37EblvNBCKeJoI=
+
+Name: doc/building_spotbugs_plugin.txt
+SHA-256-Digest: 7VDKO3NHyCpF+O5W268QLRy6vQFbQmDjirDb7SyFhdw=
+
+Name: icons/buggy-tiny.png
+SHA-256-Digest: 5I+Wbj0DMMKp5oLAgZBSqBdz8MhrO06lvpUwgIdYkr0=
+
+Name: about.ini
+SHA-256-Digest: gXckicx2z/qHbVrrhetg0lfzkj7qlWyBMBFsH51uWtQ=
+
+Name: icons/package.png
+SHA-256-Digest: jRQT83rZDc8TIEouN2qCtSv9Sfjb0vbp9Zj1Gv9NHWs=
+
+Name: icons/bug.gif
+SHA-256-Digest: B78KlyA04kqO0mDKhL1yBcodBymqOe6c0w7lokGai+w=
+
+Name: icons/file_obj.png
+SHA-256-Digest: tm/JPpAyXBCMtQRZxWHv/0KLI30wquDS3xnL9PbwgLc=
+
+Name: icons/refresh.png
+SHA-256-Digest: CYe2IG+kXGhAnJoopYli40BPuD6Ap/3ZPDv7lwJD7eU=
+
+Name: lib/xmlresolver-4.4.3-data.jar
+SHA-256-Digest: KoAdI3L4g0UCwSoBHcNSQyTJDc2H0mQsPfxH/iNgdjw=
+
+Name: spotbugs-plugin.jar
+SHA-256-Digest: U5MXUnlLp+Tx+XecR1nodvU1y1o0eOkjqrmS3WWoYXo=
+
+Name: OSGI-INF/l10n/bundle_ja.properties
+SHA-256-Digest: 9kXhyVWEnsBiTSZ/RfeypzOAmFAD63fdFwllXtz0llw=
+
+Name: lib/dom4j-2.1.3.jar
+SHA-256-Digest: hVq9Z6Oy5qkbp58JPqAOGcNVyYigCCt866KPyOXyviM=
+
+Name: icons/import_wiz.png
+SHA-256-Digest: 6/LT/F59W4sZptnJmmbTy0Is53Kdmcr7zNYZ5LcL/1I=
+
+Name: icons/warning.png
+SHA-256-Digest: 5HfF6hW/IccK2JpovhsqKZHxvJcBV/fpDvUqkoRn3DA=
+
+Name: icons/bugview.gif
+SHA-256-Digest: HTjVEocQnbmHWLXQv7Ga3zhqIeLShkmzBZbFiHdqUak=
+
+Name: icons/next_nav_into.png
+SHA-256-Digest: Hor5lEEv/KOqYtAMIw14F6zyLEdzNU91D9loXY8Ri84=
+
+Name: icons/saveas_edit.png
+SHA-256-Digest: vnBJCtqOjcmc93AANvUolH4SFH3EVj44B1J3L3dvZvE=
+
+Name: lib/httpcore5-h2-5.1.3.jar
+SHA-256-Digest: OfO+zPuOJoVPiyT9ezawFi7hsZlygjHOth3fiVp3fvQ=
+
+Name: lib/log4j-core-2.19.0.jar
+SHA-256-Digest: dOVxswUjPvZtNgfcxRMg6mcshoyygC5hcoCFsjDerHA=
+
+Name: lib/commons-text-1.10.0.jar
+SHA-256-Digest: Nzi3u2SatlrQPGFR7/Odlir/O/qeZI50LAx1u3Ny0HI=
+
+Name: OSGI-INF/l10n/bundle_fr.properties
+SHA-256-Digest: Q+KxX6Uymw4OR4KAjjIuEMFRAP7ZGOw5B7002Tdt/ec=
+
+Name: FindBugs.png
+SHA-256-Digest: Jjo7ow/4v8o3U25QF4mqisCmOqLqDBIN6RMLVrBMaD4=
+
+Name: icons/buggy-tiny-yellow.png
+SHA-256-Digest: l9cjg8+GPvQtd4eQ4sjCwEs6cAea/yB6FVLW4zCEaag=
+
+Name: lib/slf4j-api-2.0.0.jar
+SHA-256-Digest: St8MiWlBL8r9djjvYawDyyPPG1W+hj4uQhJgaCZP530=
+
+Name: icons/annotationsView.png
+SHA-256-Digest: bfPgzig9xT4HREHwuEJZk5e/OHyDYOTcrvP+rZQVNvc=
+
+Name: icons/confidence-ignore.png
+SHA-256-Digest: 1uT4/pCCgKolvys1szPSUsEnpykm5QQtFZ7qsL3WHiI=
+
+Name: lib/xmlresolver-4.4.3.jar
+SHA-256-Digest: 4jjuSiAbr7avDAZkrKqMRDYY2eXS6M5eXZ7NcMhTfe4=
+
+Name: icons/runFindbugs.png
+SHA-256-Digest: 6NkR7RtV95AMXIX6fUqaXVr7VvBXQQfaYDaoDyO5JLs=
+
+Name: lib/spotbugs.jar
+SHA-256-Digest: vWs5WCpaTBa4gFLfX4t94YZ3UhL4ZVZ56qLDGde4mqQ=
+
+Name: icons/confidence-low.png
+SHA-256-Digest: AgfJEkWv047O9mQfB8tUye3crui/bfcHbA/7XqYXrN8=
+
+Name: icons/collapseall.png
+SHA-256-Digest: 0RRkTRkYFYsSYB11MmlETCsFexMRnQpFDm4nWe2Idqw=
+
+Name: icons/detailsView.png
+SHA-256-Digest: wGKhHL0wUqgOnJw6onG8pL5AomKzSMc3/zKYJGgsoRI=
+
+Name: OSGI-INF/l10n/bundle.properties
+SHA-256-Digest: BBR4ddKoqhLz6a2HC+GySSCBvjStU8Cg2qoVmaGVj0k=
+
+Name: lib/bcel-6.5.0.jar
+SHA-256-Digest: xfgoF5O361csH4juTsIEGTYqral0CP+vNDNTWwmdJ6Q=
+
+Name: smallBuggy.png
+SHA-256-Digest: D5juL0hjlZkaCrd1VB+dvH01NIauDcy7ReOu3Y7AxUY=
+
+Name: icons/buggy-tiny-gray.png
+SHA-256-Digest: 9rfZXql+NNL9s/hx+BrsUco3kLRH3TmyCGi5KGTIVE8=
+
+Name: lib/httpclient5-5.1.3.jar
+SHA-256-Digest: MdseF4znXw+JHjmlOx3r40NmRDYf4VFF6HFzeXMUack=
+
+Name: icons/buggy-tiny-green.png
+SHA-256-Digest: LeWKWs3hK/Uiq8c6Ac/bCKMyxnl7AjC2XlSd3raWlds=
+
+Name: icons/up_nav.png
+SHA-256-Digest: iU1in/otAUKS+dKaZIRAjYa5zvVHsCvlXQD0EBQMxao=
+
+Name: icons/buggy-tiny.xcf
+SHA-256-Digest: iJVS4/UTExLBCU7bLYh9xtnpw+KKOeGz03Pk1Jlm3rw=
+
+Name: icons/export_wiz.png
+SHA-256-Digest: zMOYWEhaGj6okpyhGmZAcCxkLmS9K47jMoDSIPA2hBA=
+
+Name: .options
+SHA-256-Digest: 7ZvqiM4NTolzYJVSwByLJ1kLmj6AF025M2AxwJQQrBw=
+
+Name: plugin/README
+SHA-256-Digest: BkFK7XxTS7lQlM8DQQHf5sEkFjXu4K3zgyRbAgXtWgY=
+
+Name: icons/filter_ps.png
+SHA-256-Digest: M+bu7ZoG8LL3vUxCM1R1DCggvFyWod1ksn3Rn711xlg=
+
+Name: icons/prop_ps.png
+SHA-256-Digest: U0gjSKxTtJKzsGCcbTMpP0RGBzS2JieP3vcjvrWGflU=
+
+Name: RELEASENOTES
+SHA-256-Digest: 9bAztwT1iJTI1+WNBL/ajXaSdqhaZGSarbpwKjuZjMI=
+
+Name: lib/jcip-annotations-1.0.jar
+SHA-256-Digest: 3EQeCu0X1b0/nrrQjrUvuVxiSkl4sAbjXcShkuwLYRg=
+
+Name: lib/log4j-api-2.19.0.jar
+SHA-256-Digest: LYPhWVv3KdYl6etVkGpi8Ls4MnWzEcn3K/aobz3k6v8=
+
+Name: lib/xml-apis-1.4.01.jar
+SHA-256-Digest: gg1ogIVeA7KXsiQrh9imF3v0c4WHKyec5mmsdZFkhFs=
+
+Name: lib/jsr305-3.0.2.jar
+SHA-256-Digest: YIDM2G2U7MsV4jBhBHISNHtlArFxvluf9OD3zUn6NRo=
+
+Name: lib/asm-commons-9.4.jar
+SHA-256-Digest: 1nPwm5SLP5qNUjBlr27bGip4G8mqz7gFi8S+UJtsrIA=
+
+Name: about.html
+SHA-256-Digest: RzTRJuy0Kb0ywOMZW5GNh9mLUl12y2pTo2JqGjwKAvE=
+
+Name: icons/buggy-tiny-yellow2.png
+SHA-256-Digest: eqtIExyGFCccJl8zCI44Bf7ewr/+hUaYHPNI7ouovN0=
+
+Name: icons/confidence-normal.png
+SHA-256-Digest: iIpUjH7YYBNw+JmklKOvIPLSrCq75R0DZsHFORIPfdw=
+
+Name: icons/edtsrclkup_co.png
+SHA-256-Digest: C7hN69kCNDd/Iag1XobMf4041gyn8g8gF6hmMVfPDi0=
+
+Name: lib/asm-util-9.4.jar
+SHA-256-Digest: 636ZoQoO9yix8ndiRmRMTkuAd/eE3K/blR5ZIGVB3Ms=
+
+Name: icons/buggy-tiny-blue.png
+SHA-256-Digest: u8WmsVZbeYKL4J2c3F+OhUmzJpMaOfFGauIuvrubQTw=
+
+Name: spotbugs.png
+SHA-256-Digest: 8pvyUj1LiL81AHNyYaJHw+D4us1ijlkTfyvL+eJ0BFQ=
+
+Name: icons/treeView.png
+SHA-256-Digest: CZJ5X0sF3sxcmk1pMPZeFTkB94+md5fuJ7R9zQ64Q6s=
+
+Name: icons/confidence-high.png
+SHA-256-Digest: IoMhLG4KYsahB26d6zzHGdDtKs8oo76AcIEnjy6SUEQ=
+
+Name: lib/asm-9.4.jar
+SHA-256-Digest: hx0vwEc62EOpfn3veqLXXJlvTq56wBUgVRDG87hhKhQ=
+
+Name: lib/commons-lang3-3.12.0.jar
+SHA-256-Digest: u1SWrSmPM66NEOb3RC8w1ZAOdae4t1M27pQ3+MSuZiM=
+
+Name: lib/httpcore5-5.1.3.jar
+SHA-256-Digest: CKb+d1uoxpiubd8VkSKw6DrApvlmEPZpE/juBGFdOqQ=
+
+Name: lib/gson-2.9.1.jar
+SHA-256-Digest: S2+FC/9/bIJllKSToyFcAm6iKZdB6ZmIgKOuLVnoh3w=
+
+Name: icons/expandall.png
+SHA-256-Digest: pRHqxFJV0SUxh1rgbUTrq1qFA+jd3IPocu21Jcj0GQk=
+
+Name: icons/buggy-tiny-orange.png
+SHA-256-Digest: aXt4YhKNunuYmICb3X5+r7+UpxGMnbs+QKNutvOjipU=
+
+Name: icons/tasks_tsk.png
+SHA-256-Digest: nTejs/pJLERVEoemlPQALBvCJERyhSNl6QOxTvb2ytE=
+
+Name: lib/spotbugs-annotations.jar
+SHA-256-Digest: XaFe44mn0p922Y9Kmc3iSqbZS+hv8aSGm2zXFiMguRA=
+
